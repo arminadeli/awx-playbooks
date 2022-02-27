@@ -1,3 +1,6 @@
 ---
+-name: host
+  hosts: localhost
+
 - name: find the current location
   command: pwd
