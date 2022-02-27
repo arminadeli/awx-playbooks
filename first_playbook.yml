@@ -1,6 +1,6 @@
 ---
 
 - name: test
-  hosts: localhost
-  tasks:
-  - debug: msg=test
+  hosts: all
+  command: pwd
+  
