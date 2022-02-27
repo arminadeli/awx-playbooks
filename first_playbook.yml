@@ -1,6 +1,5 @@
 ---
-
-- name: test
-  hosts: all
-  command: pwd
+  - name: test
+    hosts: all
+    command: pwd
   
