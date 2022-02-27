@@ -1,2 +1,3 @@
+---
 - name: find the current location
   command: pwd
