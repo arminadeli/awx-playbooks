@@ -1,5 +1,5 @@
 - name: Hello World Sample
-  hosts: 	Armin-microk8s-v2
+  hosts: Armin-microk8s-v2
   tasks:
     - name: Hello Message
       debug:
