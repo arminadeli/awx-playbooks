@@ -2,8 +2,8 @@
   hosts: all
   tasks:
    - name: Check running pods
-    shell:
+     shell:
       "kubectl get pods -A"
-    register: podslist
+     register: podslist
    - debug: msg="{{podlist.stdout}}"
     
